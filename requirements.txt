@@ -1,0 +1,4 @@
+numpy>=1.24
+  matplotlib>=3.7
+  tinkerforge>=2.1.30
+  simple-pid>=2.0
