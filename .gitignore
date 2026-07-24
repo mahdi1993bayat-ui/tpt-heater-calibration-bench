@@ -1,0 +1,54 @@
+# --- Byte-compiled / caches ---
+  __pycache__/
+  *.py[cod]
+  *$py.class
+  *.so
+
+  # --- Virtual environments ---
+  .venv/
+  venv/
+  env/
+  ENV/
+
+  # --- Distribution / packaging ---
+  build/
+  dist/
+  *.egg-info/
+  *.egg
+
+  # --- Environment / secrets ---
+  .env
+  .env.*
+  *.key
+  *.pem
+
+  # --- Runtime data / logs ---
+  *.log
+  logs/
+  runs/
+  data/
+
+  # --- Operator's private CSV configs (keep only the example) ---
+  config/*.csv
+  !config/config.example.csv
+
+  # --- Matplotlib cache ---
+  .matplotlib/
+
+  # --- IDE / editor ---
+  .vscode/
+  .idea/
+  *.swp
+  *~
+
+  # --- OS ---
+  .DS_Store
+  Thumbs.db
+  desktop.ini
+
+  # --- Test / coverage ---
+  .pytest_cache/
+  .coverage
+  htmlcov/
+  .mypy_cache/
+  .ruff_cache/
